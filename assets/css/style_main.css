@@ -1,0 +1,621 @@
+html,body{overflow-x: hidden;}
+body{font-family: 'Trebuchet MS',Helvetica, sans-serif;width:100%;margin-top: -10px;}
+#header{height:150px;width:1150px;background-color:rgb(79, 131, 235);margin-top:5px;border:1px solid rgb(147, 175, 231)}
+#head-title{padding-top:40px;font-weight:700;font-size:45px;color:#fff}
+#heading{background-color:rgb(79, 131, 235);height:35px;color:#fff;font-weight:700;font-size:25px}
+.blog-head{background-color:rgb(79, 131, 235);height:35px;color:#fff;font-weight:700;font-size:36px}
+#menu ul{list-style-type:none;margin:0;padding:0;width:75%;margin-top:-1px}
+#menu ul li{display:inline;float:left;background-color:white;height:40px}
+#menu ul li{display:inline;float:left;display:block;}
+#menu ul li a{display:block;width:126px;color:#fff;padding-top:0px}
+#box1{height:800px;width:300px;border:1px;border-style:groove;border-color:#360;background-color:#fff;border:2px solid #d2691e}
+#box2{height:300px;width:300px;border:1px;border-style:groove;border-color:#360;background-color:#fff;border:2px solid #d2691e}
+#box2{height:290px;width:300px;border:1px;border-style:groove;border-color:#360;background-color:#fff;border:2px solid #d2691e}
+.abc{width: 80%!important;}
+#blog{width: 500px;
+margin-bottom: 20px;}
+table td{width:25%}
+#post ul li a{line-height:1.8px}
+#marquee1{width:75%;height: auto;}
+#marquee1 marquee{
+    height: 47px;
+}
+#marquee1 marquee a{
+}
+#image1{height:60px;width:245px;background-color:#868a08;font-size:20px;color:#fff;font-weight:700;border-radius: 15px;}
+#image1 a{height:60px;width:245px;background-color:#868a08;font-size:20px;color:#fff;font-weight:700;text-decoration:none}
+#image2{height:60px;width:245px;background-color:#0404b4;font-size:20px;color:#fff;font-weight:700;border-radius: 15px;}
+#image2 a{height:60px;width:245px;background-color:#0404b4;font-size:20px;color:#fff;font-weight:700;text-decoration:none}
+#image3{height:60px;width:245px;background-color:#fb5e03;font-size:20px;color:#fff;font-weight:700;border-radius: 15px;}
+#image3 a{height:60px;width:245px;background-color:#fb5e03;font-size:20px;color:#fff;font-weight:700;text-decoration:none}
+#image4{height:60px;width:245px;background-color:#8c0101;font-size:20px;color:#fff;font-weight:700;border-radius: 15px;}
+#image4 a{height:60px;width:245px;background-color:#8c0101;font-size:20px;color:#fff;font-weight:700;text-decoration:none}
+#image5{height:60px;width:245px;background-color:#fb0303;font-size:20px;color:#fff;font-weight:700;border-radius: 15px;}
+#image5 a{height:60px;width:245px;background-color:#fb0303;font-size:20px;color:#fff;font-weight:700;text-decoration:none}
+#image6{height:60px;width:245px;background-color:#0b610b;font-size:20px;color:#fff;font-weight:700;border-radius: 15px;}
+#image6 a{height:60px;width:245px;background-color:#0b610b;font-size:20px;color:#fff;font-weight:700;text-decoration:none}
+#video1{height:120px;margin-top: 0px;border-radius: 15px;margin-top: 5px;}
+#facebook{align:center;border:1px groove;width:100%;height:37px;width:350px;background-color:#0000e9;font-size:x-large;font-color:#fff;font-weight:700;border-radius: 4px;}
+#telegram{align:center;border:1px groove;width:100%;height:37px;width:350px;background-color:rgb(79, 131, 235);font-size:x-large;font-color:#fff;font-weight:700;border-radius: 4px;}
+#view{padding-top:4px;font-size:18px;font-weight:700;color:#0000a0}
+#view a{padding-top:4px;font-size:18px;font-weight:700;margin-left:180px;color:#0000a0;text-decoration:none}
+#matter{color:red;font-size:17px;text-align:center}
+#wrap{width:75%;height:50px;margin:0;z-index:99;position:relative;background-color:white}
+.navbar{width:100%;height:50px;padding:0;margin:0;position:absolute;border-right:1px solid #54879d}
+.navbar li{height:50px;width:140px;border-left:1px solid #fff;border-right:1px solid rgb(147, 175, 231);float:left;text-align:center;list-style:none;font:normal bold 14px/1.2em 'Trebuchet MS',Helvetica, sans-serif;padding:0;margin:0;background-color:white;}
+.navbar a{padding:0px;margin-top: 20px;text-decoration:none;color:black;display:block}
+.navbar li ul{display:none;height:auto;margin:0;padding:0;color:#fff}
+.navbar li:hover ul{display:block}
+.navbar li ul li{background-color:rgb(147, 175, 231);height:55px;margin-top:-8px}
+.navbar li ul li a{border-left:1px solid #1f5065;border-right:1px solid #1f5065;border-top:1px solid #74a3b7;border-bottom:1px solid #1f5065}
+.navbar li ul li a:hover{background-color:#366b82}
+
+#main-table{
+    margin-top: 50px!important;
+}
+.mycontainer li a{
+    font-size: 25px;
+}
+#main-table .container{
+    padding-top: 50px;
+    border-top: 1px solid rgb(79, 131, 235);
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(79, 131, 235);
+}
+.inner-td h3{
+    background: rgb(79, 131, 235);
+    color: #fff;
+    padding: 6px;
+    margin-top: 0px;
+}
+#main-table  h2{
+    font-weight: bold;
+    color:  rgb(79, 131, 235);
+    font-size: 40px;
+}
+.inner-td{
+    border: 2px solid rgb(147, 175, 231);
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.inner-td p{
+    text-align: right;
+    padding-right: 10px;
+}
+.inner-td p a{
+    color: darkblue;
+    font-weight: bold;
+}
+.table-div{
+    margin-bottom: 50px;
+}
+.inner-td ul{
+    padding-right: 10px;
+}
+.outer-td{
+    padding: 10px;
+}
+.head-td{
+    vertical-align: middle!important;
+}
+.blog-header{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.head-td h2{
+    border: solid 2px rgb(79, 131, 235);
+    border-radius: 20px;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.more{
+    color: blue;
+}
+@media(min-width: 992px){
+    #header-div{
+        width: 100%;
+    }
+    .navbar li{
+        width:120px;
+        height: 48px;
+        float: left!important;
+    }
+    #post1{
+        height: auto;
+    }
+    .mycontainer{
+        width: 80%;
+    }
+}
+@media(min-width: 768px) and (max-width:991px){
+    body{
+        margin-left: 25%;
+    }
+    
+    .blog-main-div{
+        margin-left: 170px!important;
+    }
+    #header-div{
+        width: 100%;
+    }
+    #header,#wrap{
+        width:100%!important;
+    }
+    .navbar li{
+        width:50px;
+        font-size: 10px;
+        height: 48px;
+    }
+    #header font{
+        font-size: 19px;
+    }
+    #head-title{
+        font-size: 37px;
+    }
+    #image1,#image2,#image3,#image4,#image5,#image6{
+        height:55px;
+        width:175px;
+        font-size: 18px;
+    }
+    #image1 a,#image2 a,#image3 a,#image4 a,#image5 a,#image6 a{
+        height:55px;
+        width:75px;
+        font-size: 18px;
+    }
+    #video1{
+        height:115px;
+    }
+    #box1, #box2{
+        width: 260px;
+        font-size: 15px;
+    }
+    #box1{
+        height:1780px !important;
+    }
+    #box2{
+        height: 600px !important;
+    }
+    #view{
+        padding: 0px;
+        margin-top: 1700px!important;
+    }
+    #view2{
+        padding: 0px;
+    }
+    .view2{
+        margin-top: 520px !important;
+    }
+    #view a{
+        font-size: 17px;
+        margin: 0px;
+        margin-left: 70px;
+    }
+    #view2 a{
+        font-size: 17px;
+        color:#0000a0 !important;
+        margin: 0px;
+        margin-left: 70px;
+    }
+    #inam{
+        width: 880px;
+        float: left;
+    }
+    #row1{
+        width: 880px;
+    }
+    .card{
+        width: 250px !important;
+    }
+    .card-div{
+        width: 250px !important;
+    }
+    .card-body,.card-img-top{
+        width: 250px;
+    }
+    .card-div{
+        font-size: 60%;
+        margin-right: 10px;
+    }
+    .carousel-control-next{
+        margin-right: 600px;
+    }
+    #study{
+        height: 210px;
+    }
+    .footer-list li a{
+        font-size: 13px;
+    }
+    #blog{
+        width: 400px;
+        height: auto!important;
+        margin-left: -170px;
+    }
+    .blog-head a{
+        font-size: 30px;
+    }
+    #right_column{
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 60%!important;
+    }
+    #right_column h2{
+        font-size: 30px;
+    }    
+    #right_column li a{
+        font-size: 15px;
+    }
+    .more {
+        margin-left: 20%;
+    }
+    #side-column{
+        padding-left: 10%!important;
+    }
+    .side-column li a{
+        font-size: 15px!important;
+    }
+    .head-td h2{
+        overflow-wrap: break-word;
+    }
+    #hand{
+        margin-left: 170%;
+        width:200px;
+        text-align: center;
+    }
+    #post1{
+        padding: 2%;
+        padding-right:3%;
+        padding-left:3%;
+        font-size: 30px;
+    }
+}
+@media(min-width: 575px) and (max-width:767px){
+    .navbar li{
+        width:50px;
+        font-size: 10px;
+        height: 48px;
+    }
+    #header font{
+        font-size: 19px;
+    }
+    #head-title{
+        font-size: 37px;
+    }
+    #image1,#image2,#image3,#image4,#image5,#image6{
+        height:55px;
+        width:125px;
+        font-size: 15px;
+    }
+    #image1 a,#image2 a,#image3 a,#image4 a,#image5 a,#image6 a{
+        height:55px;
+        width:125px;
+        font-size: 15px;
+    }
+    #video1{
+        height:110px;
+        width:145px;
+    }
+    #box1, #box2{
+        width: 180px;
+        font-size: 10px;
+    }
+    #box1{
+        height:1350px !important;
+    }
+    #box2{
+        height: 500px !important;
+    }
+    #view{
+        padding: 0px;
+        margin-top: 1280px!important;
+    }
+    #view2{
+        padding: 0px;
+    }
+    .view2{
+        margin-top: 420px !important;
+    }
+    #view a{
+        font-size: 10px;
+        margin: 0px;
+        margin-left: 70px;
+    }
+    #view2 a{
+        font-size: 10px;
+        color:#0000a0 !important;
+        margin: 0px;
+        margin-left: 70px;
+    }
+    #inam{
+        width: 540px;
+        float: left;
+    }
+    #row1{
+        width: 540px;
+    }
+    .card{
+        width: 170px !important;
+    }
+    .card-div{
+        width: 170px !important;
+    }
+    .card-body,.card-img-top{
+        width: 170px;
+    }
+    .card-div{
+        font-size: 60%;
+        margin-right: 10px;
+    }
+    .carousel-control-next{
+        margin-right: 600px;
+    }
+    #study{
+        height: 163px;
+    }
+    .footer-list li a{
+        font-size: 10px;
+    }
+    #blog{
+        width: 350px;
+        height: auto!important;
+        margin-left: -170px;
+    }
+    .blog-head a{
+        font-size: 20px;
+    }
+    #right_column{
+        margin-left: 00px;
+        margin-top: -20px;
+        width: 400px;
+    }
+    #right_column h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #side-column{
+        padding-left: 5%!important;
+        
+    }
+    .side-column li a{
+        font-size: 15px!important;
+    }
+    .head-td h2{
+        border-radius: 20px;
+    }
+    .head-td h2 b{
+        visibility: hidden;
+        margin-left: -80px;
+    }
+}
+@media(min-width: 480px) and (max-width:574px){
+    body{
+        margin-left: 25%;
+    }
+    .mycontainer{
+        max-width: 200px;
+    }
+    #hand{
+        margin-left: 0px!important;
+        float:right;
+        position: relative;
+        right: 0px;
+    }
+    .head-td h2{
+        border-radius: 20px;
+    }
+    .head-td h2 b{
+        visibility: hidden;
+        margin-left: -80px;
+    }
+    .navbar li{
+        width:50px;
+        font-size: 10px;
+        height: 48px;
+    }
+    #header font{
+        font-size: 17px;
+    }
+    #head-title{
+        font-size: 33px;
+    }
+    #image1,#image2,#image3,#image4,#image5,#image6{
+        height:45px;
+        width:75px;
+        font-size: 12px;
+    }
+    #image1 a,#image2 a,#image3 a,#image4 a,#image5 a,#image6 a{
+        height:45px;
+        width:75px;
+        font-size: 12px;
+    }
+    #video1{
+        height:90px;
+        width:125px;
+    }
+    #box1, #box2{
+        width: 150px;
+        font-size: 8px;
+    }
+    #box1{
+        height:1150px !important;
+    }
+    #box2{
+        height: 400px !important;
+    }
+    #view{
+        padding: 0px;
+        margin-top: 1080px!important;
+    }
+    #view2{
+        padding: 0px;
+    }
+    .view2{
+        margin-top: 320px !important;
+    }
+    #view a{
+        font-size: 10px;
+        margin: 0px;
+        margin-left: 70px;
+    }
+    #view2 a{
+        font-size: 10px;
+        color:#0000a0 !important;
+        margin: 0px;
+        margin-left: 70px;
+    }
+    #carousal-row{
+        background-color: blue;
+    }
+    #inam{
+        width: 420px;
+        float: left;
+    }
+    #row1{
+        width: 420px;
+    }
+    .card{
+        width: 130px !important;
+    }
+    .card-div{
+        width: 130px !important;
+    }
+    .card-body,.card-img-top{
+        width: 130px;
+    }
+    .card-div{
+        font-size: 60%;
+        margin-right: 10px;
+    }
+    .carousel-control-next{
+        margin-right: 600px;
+    }
+    #study{
+        height: 140px;
+    }
+    .footer-list li a{
+        font-size: 10px;
+    }
+    #blog{
+        width: 300px;
+        height: auto!important;
+        margin-left: -170px;
+        font-size: 10px!important;
+    }
+    .blog-head a{
+        font-size: 25px;
+    }
+    #right_column{
+        margin-left: -700px;
+        margin-top: -20px;
+        width: 400px;
+    }
+    #right_column h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #side-column{
+        padding-left: 0%!important;
+        
+    }
+    .side-column li{
+        margin-left: 0px;
+    }
+    .side-column li a{
+        font-size: 15px!important;
+    }
+}
+@media(max-width:479px){
+    body{
+        margin-left: 25%;
+    }
+    .abc{width: 100%!important;}
+    .navbar li{
+        width:50px;
+        font-size: 10px;
+        height: 48px;
+    }
+    #header font{
+        font-size: 17px;
+    }
+    #head-title{
+        font-size: 33px;
+    }
+    #image1,#image2,#image3,#image4,#image5,#image6{
+        height:45px;
+        width:75px;
+        font-size: 12px;
+    }
+    #image1 a,#image2 a,#image3 a,#image4 a,#image5 a,#image6 a{
+        height:45px;
+        width:75px;
+        font-size: 12px;
+    }
+    #video1{
+        height:90px;
+        width:125px;
+    }
+    #box1, #box2{
+        width: 150px;
+        font-size: 8px;
+    }
+    #box1{
+        height:1150px !important;
+    }
+    #box2{
+        height: 400px !important;
+    }
+    #view{
+        padding: 0px;
+        margin-top: 1080px!important;
+    }
+    #view2{
+        padding: 0px;
+    }
+    .view2{
+        margin-top: 320px !important;
+    }
+    #view a{
+        font-size: 10px;
+        margin: 0px;
+        margin-left: 70px;
+    }
+    #view2 a{
+        font-size: 10px;
+        color:#0000a0 !important;
+        margin: 0px;
+        margin-left: 70px;
+    }
+    #carousal-row{
+        background-color: blue;
+    }
+    #inam{
+        width: 420px;
+        float: left;
+    }
+    #row1{
+        width: 420px;
+    }
+    .card{
+        width: 130px !important;
+    }
+    .card-div{
+        width: 130px !important;
+    }
+    .card-body,.card-img-top{
+        width: 130px;
+    }
+    .card-div{
+        font-size: 60%;
+        margin-right: 10px;
+    }
+    .carousel-control-next{
+        margin-right: 600px;
+    }
+    #study{
+        height: 140px;
+    }
+    .footer-list li a{
+        font-size: 10px;
+    }
+}
